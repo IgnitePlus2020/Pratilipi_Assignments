@@ -1,0 +1,114 @@
+{
+    "living_room": [
+       {
+
+          "item_id": "01",
+          "item_name": "Sofas",
+          "item_price": "$360.19"
+       },
+       {
+
+            "item_id": "02",
+            "item_name": "Chairs",
+            "item_price": "$220.59"
+        },
+        {
+
+            "item_id": "03",
+            "item_name": "Coffee Table",
+            "item_price": "$300.69"
+         },
+         {
+
+            "item_id": "04",
+            "item_name": "Side Table",
+            "item_price": "$200.99"
+         },
+         {
+
+            "item_id": "05",
+            "item_name": "Poufs",
+            "item_price": "$180.29"
+         },
+         {
+
+            "item_id": "06",
+            "item_name": "Entertainment Centres",
+            "item_price": "$500.99"
+         }
+    
+    ],
+
+    "bedroom": [
+        {
+ 
+           "item_id": "01",
+           "item_name": "Bed",
+           "item_price": "$10.49"
+        },
+        {
+ 
+            "item_id": "02",
+            "item_name": "Wardrobe",
+            "item_price": "$11.69"
+         },
+         {
+ 
+             "item_id": "03",
+             "item_name": "Night Stand",
+             "item_price": "$10.89"
+          },
+          {
+ 
+             "item_id": "04",
+             "item_name": "Dresser",
+             "item_price": "$9.79"
+          },
+          {
+ 
+             "item_id": "05",
+             "item_name": "Mattress",
+             "item_price": "$11.99"
+          },
+          {
+ 
+             "item_id": "06",
+             "item_name": "Vanities",
+             "item_price": "$8.99"
+          }
+        ],
+
+     "study": [
+        {
+ 
+           "item_id": "01",
+           "item_name": "Desk",
+           "item_price": "$300.29"
+        },
+        {
+ 
+         "item_id": "02",
+         "item_name": "Chair",
+         "item_price": "$120.99"
+         },
+         {
+ 
+             "item_id": "03",
+             "item_name": "Book Shleves",
+             "item_price": "$500.99"
+          },
+          {
+ 
+             "item_id": "04",
+             "item_name": "Filing Cabinets",
+             "item_price": "$150.79"
+          },
+          {
+ 
+             "item_id": "05",
+             "item_name": "9-Cube Organizer",
+             "item_price": "$180.99"
+          }
+     ]
+
+ }

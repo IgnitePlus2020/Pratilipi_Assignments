@@ -1,0 +1,121 @@
+{
+    "biograpphy": [
+       {
+
+          "item_id": "01",
+          "item_name": "Becoming by Michelle Obama",
+          "item_price": "$11.89"
+       },
+       {
+
+            "item_id": "02",
+            "item_name": "Untamed by Glennon Doyle",
+            "item_price": "$16.59"
+        },
+        {
+
+            "item_id": "03",
+            "item_name": "The First Time by Colton Underwood",
+            "item_price": "$18.99"
+         },
+         {
+
+            "item_id": "04",
+            "item_name": "More Myself by Alicia Keys",
+            "item_price": "$20.99"
+         },
+         {
+
+            "item_id": "05",
+            "item_name": "The Upside of by Jen Gotch",
+            "item_price": "$18.29"
+         },
+         {
+
+            "item_id": "06",
+            "item_name": "Brain on fire by Susannah Cahalan",
+            "item_price": "$10.99"
+         }
+    
+    ],
+
+    "fiction": [
+        {
+ 
+           "item_id": "01",
+           "item_name": "Divergent Series",
+           "item_price": "$10.49"
+        },
+        {
+ 
+         "item_id": "02",
+         "item_name": "Harry Potter Series",
+         "item_price": "$11.69"
+         },
+         {
+ 
+             "item_id": "03",
+             "item_name": "Inferno by Dan Brown",
+             "item_price": "$10.89"
+          },
+          {
+ 
+             "item_id": "04",
+             "item_name": "The Night Circus",
+             "item_price": "$9.79"
+          },
+          {
+ 
+             "item_id": "05",
+             "item_name": "Kite Runner",
+             "item_price": "$11.99"
+          },
+          {
+ 
+             "item_id": "06",
+             "item_name": "To Kill A Mockingbird",
+             "item_price": "$8.99"
+          }
+        ],
+
+     "health_and_fitness": [
+        {
+ 
+           "item_id": "01",
+           "item_name": "Find Your Path by Carrie Underwood",
+           "item_price": "$20.29"
+        },
+        {
+ 
+            "item_id": "02",
+            "item_name": "Get Out of your Own ay",
+            "item_price": "$12.99"
+         },
+         {
+ 
+             "item_id": "03",
+             "item_name": "Smile by Raina Telgemeier",
+             "item_price": "$50.99"
+          },
+          {
+ 
+             "item_id": "04",
+             "item_name": "Burn After",
+             "item_price": "$12.79"
+          },
+          {
+ 
+             "item_id": "05",
+             "item_name": "Girls, Stop Apologizing by Rachel Hollis",
+             "item_price": "$18.99"
+          },
+          {
+ 
+             "item_id": "06",
+             "item_name": "Milk And Honey by Rupi Kaur",
+             "item_price": "$20.99"
+          }
+     
+     ]
+
+ }

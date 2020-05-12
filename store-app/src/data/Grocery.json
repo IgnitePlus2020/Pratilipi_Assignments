@@ -1,0 +1,227 @@
+{
+    "produce":
+    [
+        {
+ 
+            "item_id": "01",
+            "item_name": "Honeycrisp Apple 3lb",
+            "item_price": "$3.49"
+        },
+        {
+ 
+            "item_id": "02",
+            "item_name": "Organic Banana 2lb",
+            "item_price": "$1.69"
+         },
+         {
+ 
+             "item_id": "03",
+             "item_name": "Strawberries 1lb",
+             "item_price": "$2.89"
+          },
+          {
+ 
+             "item_id": "04",
+             "item_name": "Bluberries 6oz",
+             "item_price": "$2.79"
+          },
+          {
+ 
+             "item_id": "05",
+             "item_name": "Blackberries 6oz",
+             "item_price": "$2.99"
+          },
+          {
+ 
+             "item_id": "06",
+             "item_name": "Tomatoes 10.5oz",
+             "item_price": "$3.99"
+          },
+          {
+ 
+            "item_id": "07",
+            "item_name": "Baby Carrots 2lb",
+            "item_price": "$3.29"
+         },
+         {
+
+            "item_id": "08",
+            "item_name": "Red Onions 10.5oz",
+            "item_price": "$1.89"
+         },
+         {
+ 
+            "item_id": "09",
+            "item_name": "Spinach 9oz",
+            "item_price": "$3.49"
+         },
+         {
+
+            "item_id": "10",
+            "item_name": "Sweet Corn",
+            "item_price": "$4.19"
+         }
+     
+     ],
+     "dairy":
+     [
+        {
+    
+             "item_id": "11",
+             "item_name": "Organic Milk",
+             "item_price": "$3.19"
+        },
+        {
+    
+             "item_id": "12",
+             "item_name": "Almond Milk",
+             "item_price": "$2.59"
+         },
+         {
+    
+             "item_id": "13",
+             "item_name": "Traditional Yogurt",
+             "item_price": "$1.69"
+          },
+          {
+    
+             "item_id": "14",
+             "item_name": "Dairy-free Yogurt",
+             "item_price": "$1.99"
+          },
+          {
+    
+             "item_id": "15",
+             "item_name": "String Cheese",
+             "item_price": "$4.29"
+          },
+          {
+    
+             "item_id": "16",
+             "item_name": "Unsalted Butter",
+             "item_price": "$2.99"
+          }
+     
+     ],
+     "bakery_and_cereals":
+     [
+        {
+    
+           "item_id": "17",
+           "item_name": "Wheat Bread 20oz",
+           "item_price": "$3.29"
+        },
+        {
+    
+         "item_id": "18",
+         "item_name": "Chocolate Chip Muffin",
+         "item_price": "$2.99"
+         },
+         {
+    
+             "item_id": "19",
+             "item_name": "Bownie Bites 32ct",
+             "item_price": "$7.99"
+          },
+          {
+    
+             "item_id": "20",
+             "item_name": "Breakfast Cereal 18oz",
+             "item_price": "$3.79"
+          },
+          {
+    
+             "item_id": "21",
+             "item_name": "Quaker Oats 32oz",
+             "item_price": "$3.99"
+          },
+          {
+    
+             "item_id": "22",
+             "item_name": "Granula Bars 15oz",
+             "item_price": "$3.99"
+          }
+     
+     ],
+     "snacks":
+     [
+        {
+    
+           "item_id": "23",
+           "item_name": "Doritos",
+           "item_price": "$3.99"
+        },
+        {
+    
+         "item_id": "24",
+         "item_name": "Oreo",
+         "item_price": "$3.69"
+         },
+         {
+    
+             "item_id": "25",
+             "item_name": "Salted Nuts 32oz",
+             "item_price": "$14.79"
+          },
+          {
+    
+             "item_id": "26",
+             "item_name": "Popcorn",
+             "item_price": "$5.99"
+          },
+          {
+    
+             "item_id": "27",
+             "item_name": "Dried Mixed Fruits",
+             "item_price": "$5.99"
+          },
+          {
+    
+             "item_id": "28",
+             "item_name": "Humus",
+             "item_price": "$3.39"
+          }
+     
+     ],
+     "beverages":
+     [
+        {
+    
+           "item_id": "29",
+           "item_name": "Soda",
+           "item_price": "$4.99"
+        },
+        {
+    
+         "item_id": "30",
+         "item_name": "Water",
+         "item_price": "$0.99"
+         },
+         {
+    
+             "item_id": "31",
+             "item_name": "Tea",
+             "item_price": "$3.79"
+          },
+          {
+    
+             "item_id": "32",
+             "item_name": "Coffee",
+             "item_price": "$9.99"
+          },
+          {
+    
+             "item_id": "33",
+             "item_name": "Protein Shakes",
+             "item_price": "$7.99"
+          },
+          {
+    
+             "item_id": "34",
+             "item_name": "Wine",
+             "item_price": "$14.99"
+          }
+     
+     ]    
+
+}
