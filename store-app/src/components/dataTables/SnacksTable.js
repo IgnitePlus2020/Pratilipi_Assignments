@@ -2,20 +2,29 @@ import React, { Component } from "react";
 import Grocery from "../../data/Grocery.json";
 
 class SnacksTable extends Component {
-    constructor(props) {
-        super(props);
-    
-        this.state = {
-          myData: Grocery.snacks
-        };
-      }
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      myData: Grocery.snacks,
+    };
+  }
 
   render() {
     return (
       <div>
-         <br/>
-        <h1 style={{color: '#282c34', fontFamily:'Helvetica Neue', fontWeight: 700}}>Snacks:</h1>
+        <br />
         <center>
+          <h3
+            style={{
+              color: "#282c34",
+              fontFamily: "Helvetica Neue",
+              fontWeight: 700,
+            }}
+          >
+            Snacks:
+          </h3>
+          <br />
           <table
             width="1000"
             style={{

@@ -22,8 +22,8 @@ class Navbar extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span>
-              <i className="far fa-life-ring" style={{ color: "#fff" }}></i>
+            <span className="navbar-toggler-icon">
+            
             </span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">

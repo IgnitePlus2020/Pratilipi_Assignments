@@ -45,6 +45,7 @@
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
+ 
 }
 
 /* .navbar-toggler:focus {
@@ -55,9 +56,29 @@
   border: none;
 } */
 
+:root {
+  --mainDark: #343a0;
+  --mainGrey: rgba(109, 109, 109);
+  --mainLightGrey: rgba(172, 172, 172);
+  --mainWhite: #fff;
+  --mainBlue: #007bff;
+
+}
+
 body{
     background: url(./assets/bg2.jpg);
     background-repeat: no-repeat;
     background-size: 100%; 
+    position: relative;
   }
 
+
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .content-wrap {
+    flex:1;
+  }

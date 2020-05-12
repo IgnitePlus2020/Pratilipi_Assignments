@@ -12,11 +12,9 @@ class Home extends Component {
         <br />
         <br />
         <br />
-        <p>Move on to the Category Dropdown</p>
-        <p>Explore the wide variety of products</p>
-        <p>Go to Search </p>
-        <p>To search for a particular product</p>
-        <p>Fill out the Order From with your details </p>
+        <p>Move on to the Category Dropdown and explore the wide range of products</p>
+        <p>Go to the Search menu and look for a particular Grocery Item</p>
+        <p>Fill out the Order From with your personal and card details </p>
       </div>
     );
   }

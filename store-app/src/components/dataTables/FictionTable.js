@@ -14,16 +14,17 @@ class FictionTable extends Component {
     return (
       <div>
         <br />
-        <h1
-          style={{
-            color: "#282c34",
-            fontFamily: "Helvetica Neue",
-            fontWeight: 700,
-          }}
-        >
-          Fiction Novels:
-        </h1>
         <center>
+          <h3
+            style={{
+              color: "#282c34",
+              fontFamily: "Helvetica Neue",
+              fontWeight: 700,
+            }}
+          >
+            Fiction Novels:
+          </h3>
+          <br />
           <table
             width="1000"
             style={{

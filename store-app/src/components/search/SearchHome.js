@@ -3,7 +3,7 @@ import SearchList from './SearchList';
 import SearchBox from './SearchBox';
 import '../../App.css';
 import Grocery from '../../data/Grocery.json';
-import Books from '../../data/Books.json';
+
 
 class SearchHome extends Component {
     constructor(props) {
@@ -15,8 +15,6 @@ class SearchHome extends Component {
           bakery: Grocery.bakery_and_cereals,
           snacks: Grocery.snacks,
           beverages: Grocery.beverages,
-          fiction: Books.fiction,
-          biography: Books.biograpphy,
           searchData: ''
         };
       }

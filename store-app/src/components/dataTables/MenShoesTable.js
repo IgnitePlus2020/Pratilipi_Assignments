@@ -14,7 +14,8 @@ class MensShoesTable extends Component {
     return (
       <div>
         <br />
-        <h1
+        <center>
+        <h3
           style={{
             color: "#282c34",
             fontFamily: "Helvetica Neue",
@@ -22,8 +23,8 @@ class MensShoesTable extends Component {
           }}
         >
           Men's Shoes:
-        </h1>
-        <center>
+        </h3>
+        <br/>
           <table
             width="1000"
             style={{

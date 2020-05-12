@@ -14,16 +14,17 @@ class BiographyTable extends Component {
     return (
       <div>
         <br />
-        <h1
-          style={{
-            color: "#282c34",
-            fontFamily: "Helvetica Neue",
-            fontWeight: 700,
-          }}
-        >
-         Biography:
-        </h1>
         <center>
+          <h3
+            style={{
+              color: "#282c34",
+              fontFamily: "Helvetica Neue",
+              fontWeight: 700,
+            }}
+          >
+            Biography:
+          </h3>
+          <br />
           <table
             width="1000"
             style={{

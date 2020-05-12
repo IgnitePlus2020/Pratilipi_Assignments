@@ -2,20 +2,29 @@ import React, { Component } from "react";
 import Grocery from "../../data/Grocery.json";
 
 class ProduceTable extends Component {
-    constructor(props) {
-        super(props);
-    
-        this.state = {
-          myData: Grocery.produce
-        };
-      }
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      myData: Grocery.produce,
+    };
+  }
 
   render() {
     return (
       <div>
-         <br/>
-        <h1 style={{color: '#282c34', fontFamily:'Helvetica Neue', fontWeight: 700}}>Produce:</h1>
+        <br />
         <center>
+          <h3
+            style={{
+              color: "#282c34",
+              fontFamily: "Helvetica Neue",
+              fontWeight: 700,
+            }}
+          >
+            Produce:
+          </h3>
+          <br />
           <table
             width="1000"
             style={{
@@ -116,7 +125,7 @@ class ProduceTable extends Component {
             })}
           </table>
         </center>
-        <br/>
+        <br />
       </div>
     );
   }

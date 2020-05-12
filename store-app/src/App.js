@@ -2,12 +2,13 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar.js";
+import Footer from "./components/Footer.js";
 import { Switch, Route } from "react-router-dom";
 import { Layout } from "./components/Layout";
 
 //Import Pages
 import Home from "./components/pages/Home";
-import Order from "./components/pages/Order";
+import { UserForm } from "./components/Forms/UserForm";
 import SearchHome from "./components/search/SearchHome";
 import PageNotFound from "./components/pages/PageNotFound";
 import ProduceTable from "./components/dataTables/ProduceTable";
@@ -35,7 +36,7 @@ function App() {
       <Layout>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/order" component={Order} />
+          <Route path="/order" component={UserForm} />
           <Route path="/searchHome" component={SearchHome} />
           <Route path="/produce" component={ProduceTable}   />
           <Route path="/dairy" component={DairyTable}  />
@@ -57,6 +58,8 @@ function App() {
           <Route component={PageNotFound} />
         </Switch>
       </Layout>
+      <br/><br/><br/>
+      <Footer />
     </div>
   );
 }

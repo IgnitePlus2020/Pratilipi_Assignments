@@ -14,7 +14,8 @@ class LivingRoomTable extends Component {
     return (
       <div>
         <br />
-        <h1
+        <center>
+        <h3
           style={{
             color: "#282c34",
             fontFamily: "Helvetica Neue",
@@ -22,8 +23,8 @@ class LivingRoomTable extends Component {
           }}
         >
           Furniture for Living Room:
-        </h1>
-        <center>
+        </h3>
+        <br/>
           <table
             width="1000"
             style={{
