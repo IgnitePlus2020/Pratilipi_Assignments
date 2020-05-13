@@ -1,3 +1,12 @@
+StoreEva React App
+A simple react app with the following features:
+1. Navigation Bar to navigate through different pages on click
+2. "Category" Dropdown menu to list out the various products available (dummy data)
+3. "Search" navigates to a search bar where you can search for a particular product
+4. Order Form that takes user, personal and card details of the user.
+
+
+Documentation:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
