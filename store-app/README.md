@@ -6,7 +6,7 @@ A simple react app with the following features:
 4. Order Form that takes user, personal and card details of the user.
 
 
-Documentation:
+Node Documentation:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

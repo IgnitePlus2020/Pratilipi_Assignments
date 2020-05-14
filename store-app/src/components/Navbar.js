@@ -3,6 +3,8 @@ import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import { Link } from "react-router-dom";
 import DropdownItem from "react-bootstrap/DropdownItem";
+import logo from "../assets/logo.png";
+
 
 
 class Navbar extends Component {
@@ -11,7 +13,7 @@ class Navbar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <Link className="navbar-brand text-white" to="#">
-            StoreEva
+          <img src={logo}  alt="logo" style={{height:40, width:40}}/> StoreEva❤️
           </Link>
           <button
             className="navbar-toggler"
@@ -27,10 +29,10 @@ class Navbar extends Component {
             </span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav m-auto">
+            <ul className="navbar-nav ml-5">
               <li className="nav-item active">
                 <Link className="nav-link text-white ml-5" to="/">
-                  Home
+                Home  
                   <span className="sr-only">(current)</span>
                 </Link>
               </li>
@@ -242,21 +244,24 @@ class Navbar extends Component {
                 </Dropdown>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white ml-5" to="/SearchHome">
-                  Search
+                <Link className="nav-link text-white ml-5" to="/about">
+                  About
                 </Link>
               </li>
             </ul>
+            {/* <div className="ml-5"></div> <div className="ml-5"></div>
             <div className="ml-5"></div> <div className="ml-5"></div>
             <div className="ml-5"></div> <div className="ml-5"></div>
-            <div className="ml-5"></div> <div className="ml-5"></div>
-            {/* <form className="form-inline my-2 my-lg-0 ">
+            <div className="ml-2"></div>
+            <form className="form-inline my-2 my-lg-0 ">
+            <SearchBox component={SearchHome}/>
               <input
                 className="form-control mr-sm-2"
                 type="search"
+                style={{ width: 300, height: 40 }}
                 placeholder="Search"
                 aria-label="Search"
-              />
+              /> 
               <button
                 className="btn btn-outline-primary my-2 my-sm-0"
                 type="submit"

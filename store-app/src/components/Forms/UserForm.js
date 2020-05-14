@@ -15,7 +15,7 @@ export class UserForm extends Component {
     address: '',
     cardNumber: '',
     cvv: '',
-    expireyDate: ''
+    expiryDate: ''
   };
 
   // Proceed to next step
@@ -41,8 +41,8 @@ export class UserForm extends Component {
 
   render() {
     const { step } = this.state;
-    const { firstName, lastName, email, contact, address, cardNumber, cvv } = this.state;
-    const values = { firstName, lastName, email, contact, address, cardNumber, cvv };
+    const { firstName, lastName, email, contact, address, cardNumber, cvv, expiryDate } = this.state;
+    const values = { firstName, lastName, email, contact, address, cardNumber, cvv, expiryDate };
 
     switch (step) {
       case 1:

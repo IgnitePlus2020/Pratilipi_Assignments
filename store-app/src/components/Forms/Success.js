@@ -27,6 +27,7 @@ export class Success extends Component {
             {/* <AppBar title="Success" /> */}
             <center>
             <h2 style={{fontFamily:'Helvetica Neue', fontWeight: 300}}>Successful!</h2>
+            <br/>
             <h4 style={{fontFamily:'Helvetica Neue',  fontWeight: 300}}>Thank You For Your Submission</h4>
             <p style={{fontFamily:'Helvetica Neue', fontWeight: 300}}>For further details check your email</p>
             </center>

@@ -108,7 +108,13 @@
              "item_id": "05",
              "item_name": "9-Cube Organizer",
              "item_price": "$180.99"
-          }
+          },
+          {
+ 
+            "item_id": "06",
+            "item_name": "Stool",
+            "item_price": "$100.99"
+         }
      ]
 
  }

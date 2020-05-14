@@ -7,7 +7,7 @@ import { Switch, Route } from "react-router-dom";
 import { Layout } from "./components/Layout";
 
 //Import Pages
-import Home from "./components/pages/Home";
+import About from "./components/pages/About";
 import { UserForm } from "./components/Forms/UserForm";
 import SearchHome from "./components/search/SearchHome";
 import PageNotFound from "./components/pages/PageNotFound";
@@ -35,9 +35,9 @@ function App() {
       <Navbar />
       <Layout>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={SearchHome} />
           <Route path="/order" component={UserForm} />
-          <Route path="/searchHome" component={SearchHome} />
+          <Route path="/about" component={About} />
           <Route path="/produce" component={ProduceTable}   />
           <Route path="/dairy" component={DairyTable}  />
           <Route path="/bakery_and_cereal" component={BakeryCerealTable}  />
