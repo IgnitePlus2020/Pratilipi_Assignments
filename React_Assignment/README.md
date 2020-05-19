@@ -1,7 +1,6 @@
 # StoreEva React App
-_____________________________________________________
 
-A simple react app with the following features:
+### A simple react app with the following features:
 1. Navigation Bar to navigate through different pages on click
 2. "Category" Dropdown menu to list out the various products available (dummy data)
 3. "Search" navigates to a search bar where you can search for a particular product
