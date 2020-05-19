@@ -1,5 +1,4 @@
 # User Experience design process
-__________________________________________________
 
 ### Contains the folowing for an E-Commerce Website:
 
