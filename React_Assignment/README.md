@@ -1,4 +1,4 @@
-#StoreEva React App
+# StoreEva React App
 _____________________________________________________
 
 A simple react app with the following features:
@@ -9,7 +9,7 @@ A simple react app with the following features:
 
 _____________________________________________________
 
-#Node Documentation:
+# Node Documentation:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
