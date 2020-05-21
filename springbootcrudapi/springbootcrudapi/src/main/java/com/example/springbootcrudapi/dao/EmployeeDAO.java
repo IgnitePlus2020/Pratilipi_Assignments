@@ -1,13 +1,16 @@
 package com.example.springbootcrudapi.dao;
 
+
 import com.example.springbootcrudapi.model.Employee;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+@Repository
+public interface EmployeeDAO extends CrudRepository<Employee, Integer> {
 
-    List<Employee> get();
-    Employee get(int id);
-    void save(Employee employee);
-    void delete(int id);
+    @Override
+    List<Employee> findAll();
 }
+

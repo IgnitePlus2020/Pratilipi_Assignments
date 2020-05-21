@@ -1,6 +1,5 @@
 package com.example.springbootcrudapi.controller;
 
-import com.example.springbootcrudapi.exception.EmployeeNotFoundException;
 import com.example.springbootcrudapi.model.Employee;
 import com.example.springbootcrudapi.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,43 +14,35 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
-    @GetMapping("/employee")
-    public List<Employee> get() {
-        return employeeService.get();
-    }
 
     @PostMapping("/employee")
-    public Employee save(@RequestBody Employee employeeObj) {
-        employeeService.save(employeeObj);
-        return employeeObj;
+    public Employee addEmployee(@RequestBody Employee employee) {
+
+        return employeeService.addEmployee(employee);
     }
 
-    @GetMapping("/employee/{id}")
-    public Employee get(@PathVariable int id) {
-        Employee employeeObj = employeeService.get(id);
-        if(employeeObj == null) {
-            throw new EmployeeNotFoundException("EMPLOYEE WITH ID "+id+ " IS NOT FOUND!");
-        }
-        return employeeObj;
+    @GetMapping("/employee")
+    public List<Employee> getEmployees() {
+
+        return employeeService.getEmployees();
     }
 
-    @DeleteMapping("/employee/{id}")
-    public String delete(@PathVariable int id) {
+    @GetMapping(value = "/employee/{employeeId}")
+    public Employee getEmployee(@PathVariable("employeeId") int employeeId) {
 
-        Employee employeeObj = employeeService.get(id);
-        if(employeeObj == null) {
-            throw new EmployeeNotFoundException("EMPLOYEE WITH ID "+id+" IS NOT FOUND!");
-        }
-        employeeService.delete(id);
-        return "Employee has been deleted with id: " + id;
-
+        return employeeService.getEmployee(employeeId);
     }
 
-    @PutMapping("/employee")
-    public Employee update(@RequestBody Employee employeeObj) {
+    @PutMapping(value = "/employee/{employeeId}")
+    public Employee updateEmployee(@PathVariable("employeeId") int employeeId, @RequestBody Employee employee) {
 
-        employeeService.save(employeeObj);
-        return employeeObj;
+        return employeeService.updateEmployee(employeeId, employee);
+    }
 
+    @DeleteMapping(value = "/employee/{employeeId}")
+    public String deleteEmployee(@PathVariable("employeeId") int employeeId) {
+
+        employeeService.deleteEmployee(employeeId);
+        return "Employee with id: " + employeeId + " has been deleted!";
     }
 }

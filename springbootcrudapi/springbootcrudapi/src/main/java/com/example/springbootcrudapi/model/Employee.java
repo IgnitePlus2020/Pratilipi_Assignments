@@ -1,7 +1,6 @@
 package com.example.springbootcrudapi.model;
 
 import javax.persistence.*;
-import java.sql.Date;
 
 @Entity
 @Table(name = "tbl_employee")
@@ -16,6 +15,8 @@ public class Employee {
     private String name;
     @Column
     private String email;
+
+    /*@Pattern(regexp = "^\\d{10}$",message = "mobile number should have 10 digits")*/
     @Column
     private String mobile;
     @Column
