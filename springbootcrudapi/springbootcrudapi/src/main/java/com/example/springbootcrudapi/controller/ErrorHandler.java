@@ -26,4 +26,6 @@ public class ErrorHandler extends ResponseEntityExceptionHandler {
         error.setDetails(details);
         return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
     }
+
+
 }

@@ -5,6 +5,7 @@ import com.example.springbootcrudapi.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -16,7 +17,8 @@ public class EmployeeController {
 
 
     @PostMapping("/employee")
-    public Employee addEmployee(@RequestBody Employee employee) {
+    public Employee addEmployee(@Valid @RequestBody Employee employee) {
+
 
         return employeeService.addEmployee(employee);
     }
@@ -43,6 +45,6 @@ public class EmployeeController {
     public String deleteEmployee(@PathVariable("employeeId") int employeeId) {
 
         employeeService.deleteEmployee(employeeId);
-        return "Employee with id: " + employeeId + " has been deleted!";
+        return "Employee with id " + employeeId + " has been deleted!";
     }
 }
