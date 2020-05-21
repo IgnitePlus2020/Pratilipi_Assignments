@@ -30,7 +30,7 @@ public class EmployeeController {
     public Employee get(@PathVariable int id) {
         Employee employeeObj = employeeService.get(id);
         if(employeeObj == null) {
-            throw new EmployeeNotFoundException("EMPLOYEE WITH ID \"+id+\" IS NOT FOUND!");
+            throw new EmployeeNotFoundException("EMPLOYEE WITH ID "+id+ " IS NOT FOUND!");
         }
         return employeeObj;
     }
