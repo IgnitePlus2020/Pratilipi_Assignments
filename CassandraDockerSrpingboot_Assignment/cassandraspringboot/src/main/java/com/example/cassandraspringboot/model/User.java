@@ -4,20 +4,33 @@ package com.example.cassandraspringboot.model;
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 @Table
 public class User {
 
     @PrimaryKey
     private Integer id;
 
+    @NotNull
+    @Size(min = 3, message = "First Name must have atleast 3 characters")
     private String firstName;
 
+    @NotNull
+    @Size(min = 3, message = "Last Name must have atleast 3 characters")
     private String lastName;
 
+    @Email
+    @NotNull
     private String email;
 
+    @NotNull
     private String address;
 
+    @NotNull
+    @Size(min = 5, max = 16, message = "Valid Zip-Code required")
     private String zipcode;
 
     public User(Integer id, String firstName, String lastName, String email, String address, String zipcode) {
