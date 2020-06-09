@@ -24,8 +24,7 @@ public class Employee {
     @Column
     private String email;
 
-    @Size(min=10, max=10, message = "Mobile number must be a valid 10-digit number")
-    /*@Pattern(regexp = "^\\d{10}$",message = "Exactly 10 digits number required")*/
+    @Size(min=10, max=10, message = "Valid 10-digit mobile number required!")
     @NotEmpty(message = "Please provide a name")
     @Column
     private String mobile;
