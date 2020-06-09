@@ -3,7 +3,7 @@
 	Uses MySQL database as the datasource
 	Runs on port 8081
 	
-## Once application has started successfully then we can test it ## by using POSTMAN or any other API testing tool:
+## Once application has started successfully then we can test it by using POSTMAN or any other API testing tool:
 
 Example JSON object:
 ```json
@@ -30,14 +30,14 @@ localhost:8081/api/employee
 localhost:8081/api/employee
 ```
 
-	To Retrieve a particular employee using their Id use the following url with GET Request
+	To Retrieve a particular employee with respect to their Id use the following url with GET Request
 
 ```url
 localhost:8081/api/employee/id
 ```
 
 ### 3. PUT
-	To Update a particular employee using their Id use the following url with PUT Request and pass the JSON object with updated data
+	To Update a particular employee with respect to their Id use the following url with PUT Request and pass the JSON object with updated data
 
 ```url
 localhost:8081/api/employee/id
@@ -45,7 +45,7 @@ localhost:8081/api/employee/id
 
 
 ### 4. DELETE
-	To Delete a particular employee using their Id use the following url with DELETE Request
+	To Delete a particular employee with respect to their Id use the following url with DELETE Request
 
 ```url
 localhost:8081/api/employee/id
